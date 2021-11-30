@@ -19176,7 +19176,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <wire x1="218.44" y1="-156.21" x2="359.41" y2="-156.21" width="0.1524" layer="95"/>
 <wire x1="359.41" y1="-156.21" x2="359.41" y2="-53.34" width="0.1524" layer="95"/>
 <wire x1="359.41" y1="-53.34" x2="218.44" y2="-53.34" width="0.1524" layer="95"/>
-<text x="218.44" y="-52.07" size="3.81" layer="95">USB TO SERIAL</text>
 <text x="386.08" y="-121.92" size="6.4516" layer="91">TODO
 
 ir recv
