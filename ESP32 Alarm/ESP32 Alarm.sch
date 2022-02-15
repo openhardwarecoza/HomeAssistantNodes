@@ -20518,7 +20518,7 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <part name="X8" library="con-phoenix-381_l" deviceset="MCV2" device=""/>
 <part name="X17" library="con-phoenix-381_l" deviceset="MCV2" device=""/>
 <part name="X18" library="con-phoenix-381_l" deviceset="MCV2" device=""/>
-<part name="Q3" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET-NCH" device="-FQP30N06L" package3d_urn="urn:adsk.eagle:package:38447/1" value="60V/32A/35mΩ"/>
+<part name="Q3" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET-NCH" device="-FDD8780" package3d_urn="urn:adsk.eagle:package:38459/1" value="35A/25V/8.5mΩ"/>
 <part name="Q4" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET-NCH" device="-FQP30N06L" package3d_urn="urn:adsk.eagle:package:38447/1" value="60V/32A/35mΩ"/>
 <part name="Q5" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET-NCH" device="-FQP30N06L" package3d_urn="urn:adsk.eagle:package:38447/1" value="60V/32A/35mΩ"/>
 <part name="Q6" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET-NCH" device="-FQP30N06L" package3d_urn="urn:adsk.eagle:package:38447/1" value="60V/32A/35mΩ"/>
@@ -20563,7 +20563,6 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <part name="X19" library="con-phoenix-381_l" deviceset="MCV3" device=""/>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="LOCK" package3d_urn="urn:adsk.eagle:package:38089/1"/>
 <part name="C1" library="SparkFun" deviceset="CAP_POL" device="1206" value="10uF"/>
-<part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="LOCK" package3d_urn="urn:adsk.eagle:package:38089/1"/>
 <part name="IC6" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="LD117A?*" device="S" package3d_urn="urn:adsk.eagle:package:30370/1" technology="33TR" value="1117-33"/>
 <part name="C7" library="SparkFun" deviceset="CAP_POL" device="1206" value="10uF"/>
 <part name="C8" library="SparkFun" deviceset="CAP_POL" device="1206" value="10uF"/>
@@ -21206,10 +21205,6 @@ DHT11 = 12
 <attribute name="NAME" x="477.266" y="-103.505" size="1.778" layer="95"/>
 <attribute name="VALUE" x="477.266" y="-108.331" size="1.778" layer="96"/>
 </instance>
-<instance part="J3" gate="G$1" x="450.85" y="-125.73" smashed="yes">
-<attribute name="VALUE" x="445.77" y="-133.096" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="445.77" y="-117.602" size="1.778" layer="95" font="vector"/>
-</instance>
 <instance part="IC6" gate="G$1" x="345.186" y="22.987" smashed="yes">
 <attribute name="NAME" x="347.726" y="15.367" size="1.778" layer="95"/>
 <attribute name="VALUE" x="347.726" y="12.827" size="1.778" layer="96"/>
@@ -21293,12 +21288,7 @@ DHT11 = 12
 <pinref part="J2" gate="G$1" pin="4"/>
 <label x="461.01" y="-101.6" size="1.778" layer="95"/>
 <pinref part="C1" gate="G$1" pin="+"/>
-<wire x1="455.93" y1="-101.6" x2="473.71" y2="-101.6" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="2"/>
-<wire x1="473.71" y1="-101.6" x2="476.25" y2="-101.6" width="0.1524" layer="91"/>
-<wire x1="455.93" y1="-125.73" x2="473.71" y2="-125.73" width="0.1524" layer="91"/>
-<wire x1="473.71" y1="-125.73" x2="473.71" y2="-101.6" width="0.1524" layer="91"/>
-<junction x="473.71" y="-101.6"/>
+<wire x1="455.93" y1="-101.6" x2="476.25" y2="-101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="360.426" y="22.987" size="1.778" layer="95"/>
@@ -21557,10 +21547,6 @@ DHT11 = 12
 <label x="461.01" y="-109.22" size="1.778" layer="95"/>
 <pinref part="C1" gate="G$1" pin="-"/>
 <wire x1="455.93" y1="-109.22" x2="476.25" y2="-109.22" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="1"/>
-<wire x1="455.93" y1="-128.27" x2="476.25" y2="-128.27" width="0.1524" layer="91"/>
-<wire x1="476.25" y1="-128.27" x2="476.25" y2="-109.22" width="0.1524" layer="91"/>
-<junction x="476.25" y="-109.22"/>
 </segment>
 <segment>
 <wire x1="345.186" y1="15.367" x2="345.186" y2="10.287" width="0.1524" layer="91"/>
@@ -22521,11 +22507,6 @@ DHT11 = 12
 <wire x1="128.27" y1="-17.78" x2="146.05" y2="-17.78" width="0.1524" layer="91"/>
 <label x="137.16" y="-17.78" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="3"/>
-<wire x1="455.93" y1="-123.19" x2="469.9" y2="-123.19" width="0.1524" layer="91"/>
-<label x="462.28" y="-123.19" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="N$57" class="0">
 <segment>
@@ -22673,11 +22654,6 @@ DHT11 = 12
 <segment>
 <wire x1="128.27" y1="-20.32" x2="146.05" y2="-20.32" width="0.1524" layer="91"/>
 <label x="137.16" y="-20.32" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="4"/>
-<wire x1="455.93" y1="-120.65" x2="469.9" y2="-120.65" width="0.1524" layer="91"/>
-<label x="462.28" y="-120.65" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$30" class="0">
