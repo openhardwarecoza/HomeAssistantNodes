@@ -1,0 +1,163 @@
+Partlist
+
+Exported from 80 LED WS2812 panels.brd at 2022/09/22 22:05
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value          Package                      Library            Position (mm)         Orientation
+
+C1       220uF          CAPACITOR-SIDEWAY-CUTOUT     cutout capacitor   (87.3 7)              R90
+C2       220uF          CAPACITOR-SIDEWAY-CUTOUT     cutout capacitor   (59 7)                R270
+C3                      C1206                        rcl                (10 85)               R90
+C4                      C1206                        rcl                (20 85)               R270
+C5                      C1206                        rcl                (30 85)               R270
+C6                      C1206                        rcl                (40 85)               R270
+C7                      C1206                        rcl                (50 85)               R270
+C8                      C1206                        rcl                (60 85)               R270
+C9                      C1206                        rcl                (70 85)               R270
+C10                     C1206                        rcl                (80 85)               R270
+C11                     C1206                        rcl                (90 85)               R270
+C12                     C1206                        rcl                (10 75)               R270
+C13                     C1206                        rcl                (20 75)               R90
+C14                     C1206                        rcl                (30 75)               R270
+C15                     C1206                        rcl                (40 75)               R270
+C16                     C1206                        rcl                (50 75)               R270
+C17                     C1206                        rcl                (60 75)               R270
+C18                     C1206                        rcl                (70 75)               R270
+C19                     C1206                        rcl                (80 75)               R270
+C20                     C1206                        rcl                (90 75)               R270
+C21                     C1206                        rcl                (10 65)               R270
+C22                     C1206                        rcl                (20 65)               R270
+C23                     C1206                        rcl                (30 65)               R90
+C24                     C1206                        rcl                (40 65)               R270
+C25                     C1206                        rcl                (50 65)               R270
+C26                     C1206                        rcl                (60 65)               R270
+C27                     C1206                        rcl                (70 65)               R270
+C28                     C1206                        rcl                (80 65)               R270
+C29                     C1206                        rcl                (90 65)               R270
+C30                     C1206                        rcl                (10 55)               R270
+C31                     C1206                        rcl                (20 55)               R270
+C32                     C1206                        rcl                (30 55)               R270
+C33                     C1206                        rcl                (40 55)               R90
+C34                     C1206                        rcl                (50 55)               R270
+C35                     C1206                        rcl                (60 55)               R270
+C36                     C1206                        rcl                (70 55)               R270
+C37                     C1206                        rcl                (80 55)               R270
+C38                     C1206                        rcl                (10 45)               R270
+C39                     C1206                        rcl                (90 55)               R270
+C40                     C1206                        rcl                (20 45)               R270
+C41                     C1206                        rcl                (30 45)               R270
+C42                     C1206                        rcl                (40 45)               R270
+C43                     C1206                        rcl                (50 45)               R90
+C44                     C1206                        rcl                (60 45)               R270
+C45                     C1206                        rcl                (70 45)               R270
+C46                     C1206                        rcl                (80 45)               R270
+C47                     C1206                        rcl                (90 45)               R270
+C48                     C1206                        rcl                (10 35)               R270
+C49                     C1206                        rcl                (20 35)               R270
+C50                     C1206                        rcl                (30 35)               R270
+C51                     C1206                        rcl                (40 35)               R270
+C52                     C1206                        rcl                (50 35)               R270
+C53                     C1206                        rcl                (60 35)               R90
+C54                     C1206                        rcl                (70 35)               R270
+C55                     C1206                        rcl                (80 35)               R270
+C56                     C1206                        rcl                (90 35)               R270
+C57      10uF           C1206                        discrete           (13 11)               R0
+C58      10uF           C1206                        discrete           (39 26)               R0
+C59      10uF           C1206                        discrete           (39 11)               R0
+C60      0.1uF          DISCRETE_C1206               A9G                (5 11)                R180
+D1       WS2812B        WS2812B                      SparkFun-LED       (5 85)                R90
+D2       WS2812B        WS2812B                      SparkFun-LED       (15 85)               R90
+D3       WS2812B        WS2812B                      SparkFun-LED       (25 85)               R90
+D4       WS2812B        WS2812B                      SparkFun-LED       (35 85)               R90
+D5       WS2812B        WS2812B                      SparkFun-LED       (45 85)               R90
+D6       WS2812B        WS2812B                      SparkFun-LED       (55 85)               R90
+D7       WS2812B        WS2812B                      SparkFun-LED       (65 85)               R90
+D8       WS2812B        WS2812B                      SparkFun-LED       (75 85)               R90
+D9       WS2812B        WS2812B                      SparkFun-LED       (85 85)               R90
+D10      WS2812B        WS2812B                      SparkFun-LED       (95 85)               R90
+D11      WS2812B        WS2812B                      SparkFun-LED       (5 75)                R90
+D12      WS2812B        WS2812B                      SparkFun-LED       (15 75)               R90
+D13      WS2812B        WS2812B                      SparkFun-LED       (25 75)               R90
+D14      WS2812B        WS2812B                      SparkFun-LED       (35 75)               R90
+D15      WS2812B        WS2812B                      SparkFun-LED       (45 75)               R90
+D16      WS2812B        WS2812B                      SparkFun-LED       (55 75)               R90
+D17      WS2812B        WS2812B                      SparkFun-LED       (65 75)               R90
+D18      WS2812B        WS2812B                      SparkFun-LED       (75 75)               R90
+D19      WS2812B        WS2812B                      SparkFun-LED       (85 75)               R90
+D20      WS2812B        WS2812B                      SparkFun-LED       (95 75)               R90
+D21      WS2812B        WS2812B                      SparkFun-LED       (5 65)                R90
+D22      WS2812B        WS2812B                      SparkFun-LED       (15 65)               R90
+D23      WS2812B        WS2812B                      SparkFun-LED       (25 65)               R90
+D24      WS2812B        WS2812B                      SparkFun-LED       (35 65)               R90
+D25      WS2812B        WS2812B                      SparkFun-LED       (45 65)               R90
+D26      WS2812B        WS2812B                      SparkFun-LED       (55 65)               R90
+D27      WS2812B        WS2812B                      SparkFun-LED       (65 65)               R90
+D28      WS2812B        WS2812B                      SparkFun-LED       (75 65)               R90
+D29      WS2812B        WS2812B                      SparkFun-LED       (85 65)               R90
+D30      WS2812B        WS2812B                      SparkFun-LED       (95 65)               R90
+D31      WS2812B        WS2812B                      SparkFun-LED       (5 55)                R90
+D32      WS2812B        WS2812B                      SparkFun-LED       (15 55)               R90
+D33      WS2812B        WS2812B                      SparkFun-LED       (25 55)               R90
+D34      WS2812B        WS2812B                      SparkFun-LED       (35 55)               R90
+D35      WS2812B        WS2812B                      SparkFun-LED       (45 55)               R90
+D36      WS2812B        WS2812B                      SparkFun-LED       (55 55)               R90
+D37      WS2812B        WS2812B                      SparkFun-LED       (65 55)               R90
+D38      WS2812B        WS2812B                      SparkFun-LED       (75 55)               R90
+D39      WS2812B        WS2812B                      SparkFun-LED       (85 55)               R90
+D40      WS2812B        WS2812B                      SparkFun-LED       (95 55)               R90
+D41      WS2812B        WS2812B                      SparkFun-LED       (5 45)                R90
+D42      WS2812B        WS2812B                      SparkFun-LED       (15 45)               R90
+D43      WS2812B        WS2812B                      SparkFun-LED       (25 45)               R90
+D44      WS2812B        WS2812B                      SparkFun-LED       (35 45)               R90
+D45      WS2812B        WS2812B                      SparkFun-LED       (45 45)               R90
+D46      WS2812B        WS2812B                      SparkFun-LED       (55 45)               R90
+D47      WS2812B        WS2812B                      SparkFun-LED       (65 45)               R90
+D48      WS2812B        WS2812B                      SparkFun-LED       (75 45)               R90
+D49      WS2812B        WS2812B                      SparkFun-LED       (85 45)               R90
+D50      WS2812B        WS2812B                      SparkFun-LED       (95 45)               R90
+D51      WS2812B        WS2812B                      SparkFun-LED       (5 35)                R90
+D52      WS2812B        WS2812B                      SparkFun-LED       (15 35)               R90
+D53      WS2812B        WS2812B                      SparkFun-LED       (25 35)               R90
+D54      WS2812B        WS2812B                      SparkFun-LED       (35 35)               R90
+D55      WS2812B        WS2812B                      SparkFun-LED       (45 35)               R90
+D56      WS2812B        WS2812B                      SparkFun-LED       (55 35)               R90
+D57      WS2812B        WS2812B                      SparkFun-LED       (65 35)               R90
+D58      WS2812B        WS2812B                      SparkFun-LED       (75 35)               R90
+D59      WS2812B        WS2812B                      SparkFun-LED       (85 35)               R90
+D60      WS2812B        WS2812B                      SparkFun-LED       (95 35)               R90
+D63      SS34           DO-214AC                     diode              (53.3 24.9)           R180
+ESP      ESP01          ESP01                        esp8266modules     (11 20.5)             R270
+IC4      LM2596-5S      TO263-5                      linear             (80 19)               R270
+L1       33uH           DR127                        inductors          (64 21)               R270
+Q3       BSS138         SOT23-3                      SparkFun           (31 20)               R0
+R1       10k            1206                         SparkFun-Resistors (21 11)               R180
+R1-IN                   2,15/1,0                     wirepad            (1.75 85)             R0
+R1-OUT                  2,15/1,0                     wirepad            (98.25 85)            R0
+R2       10k            1206                         SparkFun-Resistors (31 11)               R180
+R2-IN                   2,15/1,0                     wirepad            (1.75 75)             R0
+R2-OUT                  2,15/1,0                     wirepad            (98.25 75)            R0
+R3       10k            1206                         SparkFun-Resistors (31 23)               R0
+R3-IN                   2,15/1,0                     wirepad            (1.75 65)             R0
+R3-OUT                  2,15/1,0                     wirepad            (98.25 65)            R0
+R4-IN                   2,15/1,0                     wirepad            (1.75 55)             R0
+R4-OUT                  2,15/1,0                     wirepad            (98.25 55)            R0
+R5-IN                   2,15/1,0                     wirepad            (1.75 45)             R0
+R5-OUT                  2,15/1,0                     wirepad            (98.25 45)            R0
+R6-IN                   2,15/1,0                     wirepad            (1.75 35)             R0
+R6-OUT                  2,15/1,0                     wirepad            (98.25 35)            R0
+R23      10K            1206                         SparkFun           (31 16)               R180
+R25      10K            1206                         SparkFun           (31 26)               R180
+RX                      2,15/1,0                     wirepad            (15 3)                R0
+S1       RST            TACTILE_SWITCH_PTH_6.0MM_KIT SparkFun-Switches  (21 5)                R0
+S2       IO0            TACTILE_SWITCH_PTH_6.0MM_KIT SparkFun-Switches  (31 5)                R0
+SJ1                     SJ                           jumper             (5 75)                MR180
+SJ2                     SJ                           jumper             (5 65)                MR180
+SJ3                     SJ                           jumper             (5 55)                MR180
+SJ4                     SJ                           jumper             (5 45)                MR180
+SJ5                     SJ                           jumper             (5 35)                MR180
+TX                      2,15/1,0                     wirepad            (12 3)                R0
+U4       1117/3.3v      SOT-223                      IC                 (39 19)               R180
+X2                      W237-102                     con-wago-500       (92.5 21)             R90
